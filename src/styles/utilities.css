@@ -1,0 +1,17 @@
+@layer utilities {
+  .text-weather-primary {
+    @apply text-gray-900;
+  }
+  
+  .text-weather-secondary {
+    @apply text-gray-500;
+  }
+  
+  .bg-weather-card {
+    @apply bg-white;
+  }
+  
+  .weather-shadow {
+    @apply shadow-sm;
+  }
+} 

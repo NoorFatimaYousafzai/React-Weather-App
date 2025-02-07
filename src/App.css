@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+/* Custom shadows */
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Custom colors */
+.bg-blue-50 {
+  background-color: #f0f7ff;
+}
+
+/* Custom text sizes */
+.text-6xl {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+/* Custom spacing */
+.gap-8 {
+  gap: 2rem;
+}
+
+/* Custom widths */
+.w-40 {
+  width: 10rem;
+}
+
+/* Custom padding */
+.p-4 {
+  padding: 1rem;
+}
+
+/* Custom rounded corners */
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+/* Weather Icons - Updated sizes */
+.weather-icon-large {
+  @apply w-12 h-12 text-yellow-400; /* Main temperature icon */
+}
+
+.weather-icon-medium {
+  @apply w-4 h-4 text-gray-600; /* Hourly forecast icons */
+}
+
+.weather-icon-small {
+  @apply w-4 h-4 text-gray-500; /* Weekly forecast icons */
+}
+
+/* Custom icon sizes for specific sections */
+.metric-icon {
+  @apply w-4 h-4 text-blue-500; /* Feels like and Humidity icons */
+}
+
+.nav-icon {
+  @apply w-4 h-4 text-gray-600; /* Navigation icons */
+}
+
+/* Sun icon in the logo */
+.logo-icon {
+  @apply w-5 h-5 text-yellow-500;
+}
